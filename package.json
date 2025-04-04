@@ -16,7 +16,6 @@
     "framer-motion": "^12.6.3",
     "react": "^19.1.0",
     "react-dom": "^19.0.0",
-    "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^7.4.1",
     "react-type-animation": "^3.2.0",
     "router": "^2.2.0",

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import { Oval } from 'react-loader-spinner';
+
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 
@@ -51,7 +51,7 @@ const Post = () => {
 
       {loading ? (
         <div className="flex justify-center items-center h-64">
-          <Oval height="80" width="80" color="green" ariaLabel="loading" />
+          Loading
         </div>
       ) : (
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
-import { Oval } from 'react-loader-spinner';
+
 
 
 const PostDetails = () => {
@@ -27,7 +27,7 @@ const PostDetails = () => {
 
   if (!postDetails) return <div className="text-center text-gray-600">
       <div className="flex justify-center items-center h-64">
-              <Oval height="80" width="80" color="green" ariaLabel="loading" />
+              Loading
       </div>
   </div>; 
 
